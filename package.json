@@ -1,17 +1,24 @@
 {
   "name": "ayanokoji-whatsapp-bot-telegram",
   "version": "2.0.0",
-  "description": "Ultimate WhatsApp Bot controlled via Telegram",
+  "description": "Ultimate WhatsApp Bot controlled via Telegram by Isagi Yoichi",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
+  "keywords": ["whatsapp", "bot", "ayanokoji", "telegram"],
+  "author": "Isagi Yoichi",
+  "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.8",
     "@hapi/boom": "^10.0.1",
     "pino": "^8.19.0",
     "node-telegram-bot-api": "^0.64.0",
     "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   },
   "engines": {
     "node": ">=16.0.0"
